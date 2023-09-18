@@ -75,3 +75,17 @@ a:visited
 {
     color: rgb(1, 156, 156);
 }
+
+.grid-container
+{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-item
+{
+    font-family: 'Helvetica';
+    border: 1px solid black;
+    text-align: center;
+}
