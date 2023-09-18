@@ -65,3 +65,13 @@ h2
 {
     font-family: 'Courier';
 }
+
+a:link
+{
+    color: red;
+}
+
+a:visited 
+{
+    color: green;
+}
