@@ -45,4 +45,20 @@ h2
 {
     font-size: 1em;
     font-family: 'Helvetica';
+    margin-bottom: 3em;
+}
+
+#entry-header
+{
+    font-family: 'Helvetica';
+}
+
+#entry-text
+{
+    font-family: 'Courier';
+}
+
+#blog-link
+{
+    font-family: 'Courier';
 }
