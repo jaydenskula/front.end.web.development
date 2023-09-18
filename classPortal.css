@@ -68,10 +68,10 @@ h2
 
 a:link
 {
-    color: red;
+    color: rgb(1, 65, 65);
 }
 
 a:visited 
 {
-    color: green;
+    color: rgb(1, 156, 156);
 }
