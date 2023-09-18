@@ -27,10 +27,16 @@ h2
     justify-content: space-between;
 }
 
-a
+#main-nav-link
 {
     font-size: 2em;
     font-family: 'Helvetica';
     font-weight: lighter;
     text-decoration: none;
+}
+
+#secondary-nav-link
+{
+    font-size: 1em;
+    font-family: 'Helvetica';
 }
