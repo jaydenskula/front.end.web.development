@@ -6,24 +6,25 @@ body
 
 h1
 {
-    font-size: 20px;
+    font-size: 1.5em;
     text-align: left;
 }
 
 h2
 {
-    font-size: 15px;
+    font-size: 1.25em;
     text-align: left;
 }
 
 #main-nav
 {
+    margin-top: 3em;
     display: flex;
     justify-content: space-between;
 }
 
 a
 {
-    font-size: 30px;
+    font-size: 2em;
     text-decoration: none;
 }
