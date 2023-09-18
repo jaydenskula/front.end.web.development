@@ -1,0 +1,22 @@
+body
+{
+    max-width: 70%;
+    margin: auto;
+}
+
+h1
+{
+    font-size: 20px;
+    text-align: center;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+a
+{
+    font-size: 30px;
+}
