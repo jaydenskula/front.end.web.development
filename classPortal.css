@@ -35,6 +35,12 @@ h2
     text-decoration: none;
 }
 
+#secondary-nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+
 #secondary-nav-link
 {
     font-size: 1em;
