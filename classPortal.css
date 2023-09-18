@@ -16,7 +16,7 @@ h2
     text-align: left;
 }
 
-#nav
+#main-nav
 {
     display: flex;
     justify-content: space-between;
