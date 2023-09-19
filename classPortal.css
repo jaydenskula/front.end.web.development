@@ -39,13 +39,14 @@ h2
 {
     display: flex;
     justify-content: space-between;
+    margin-top: 2em;
+    margin-bottom: 1em;
 }
 
 #secondary-nav-link
 {
     font-size: 1em;
     font-family: 'Helvetica';
-    margin-bottom: 3em;
     text-decoration: none;
 }
 
