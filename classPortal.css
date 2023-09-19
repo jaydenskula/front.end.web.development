@@ -114,6 +114,7 @@ grid-item
     #secondary-nav
     {
         display: grid;
+        grid-template-columns: 1fr;
     }
 
     #secondary-nav-link
