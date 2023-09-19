@@ -46,6 +46,7 @@ h2
     font-size: 1em;
     font-family: 'Helvetica';
     margin-bottom: 3em;
+    text-decoration: none;
 }
 
 #entry-header
@@ -66,14 +67,17 @@ h2
     font-family: 'Courier';
 }
 
-a:link
+a
 {
-    color: rgb(1, 65, 65);
+    color: rgb(9, 107, 107);
+    text-decoration: none;
+    transition: ease-out;
+    transition-duration: 0.5s;
 }
 
-a:visited 
+a:hover
 {
-    color: rgb(1, 156, 156);
+    text-shadow: 2px 2px 2px rgb(180, 180, 180);
 }
 
 .grid-container
