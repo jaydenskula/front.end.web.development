@@ -97,3 +97,17 @@ grid-item
     text-align: center;
     padding-top: 30px;
 }
+
+/* MOBILE */
+@media (max-width: 800px)
+{
+    #main-nav
+    {
+        display: grid;
+    }
+
+    #secondary-nav
+    {
+        display: grid;
+    }
+}
