@@ -106,8 +106,18 @@ grid-item
         display: grid;
     }
 
+    #main-nav-link
+    {
+        text-align: center;
+    }
+
     #secondary-nav
     {
         display: grid;
+    }
+
+    #secondary-nav-link
+    {
+        text-align: center;
     }
 }
