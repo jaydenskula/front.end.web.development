@@ -4,7 +4,7 @@ event1.style.backgroundColor = "blue";
 
 function changeButton()
 {
-    button.textContent = "Hello!";
+    button.textContent = "Hello! This text change is through JS";
 }
 
 let button = document.querySelector(".button");
