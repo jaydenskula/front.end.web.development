@@ -50,20 +50,20 @@ h2
     text-decoration: none;
 }
 
-#entry-header
+.entry-header
 {
     font-family: 'Helvetica';
     font-size: 1.5em;
     font-weight: lighter;
 }
 
-#entry-text
+.entry-text
 {
     font-family: 'Courier';
     font-size: 1.25em;
 }
 
-#blog-link
+.blog-link
 {
     font-family: 'Courier';
 }
