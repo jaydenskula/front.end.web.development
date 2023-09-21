@@ -15,5 +15,11 @@ function changeColor()
     hover.style.color = "blue";
 }
 
+function revert()
+{
+    hover.style.color = "black";
+}
+
 let hover = document.querySelector(".hover");
-button.addEventListener("mouseover", changeColor);
+hover.addEventListener("mouseover", changeColor);
+hover.addEventListener("mouseout", revert);
