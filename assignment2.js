@@ -12,12 +12,6 @@ bgclr.addEventListener("input", () => {
     document.body.style.backgroundColor = bgclr.value;
 })
 
-function change(list)
-{
-    var val=list.options[list.selectedIndex].value;
-    document.body.style.color=val;
-}
-
 let txtclr = document.getElementById("selectColor");
 txtclr.addEventListener("input", () => {
     document.body.style.color = txtclr.value;
