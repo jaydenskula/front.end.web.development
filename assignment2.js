@@ -7,25 +7,20 @@ let guessButton = document.querySelector(".guessSubmit");
 let userGuess = document.querySelector(".guessField");
 guessButton.addEventListener("click", checkGuess);
 
-function checkDate()
-{
-    alert("Thanks for submitting a date");
-}
+const btn = document.querySelector('button');
+let form = document.querySelector('form');
 
-let dateButton = document.querySelector(".dateSubmit");
-let dateInput = document.querySelector(".datetime");
-dateButton.addEventListener("click", checkDate);
-
-const usernameInput = document.getElementById('username');
-usernameInput.addEventListener('input', () => {
-  console.log(usernameInput.value);
-});
-
-const form = document.querySelector('form');
-form.addEventListener('submit', (event) => {
-  event.preventDefault();
-
-  const data = new FormData(form);
-  console.log(data.get('username'));
-  console.log(data.get('password'));
-});
+btn.addEventListener('click', () => {
+    const btnClass = btn.getAttribute('class');
+    if (btnClass === 'dark') {
+      btn.setAttribute('class','light');
+      btn.textContent = 'Lighten';
+      form.style.backgroundColor = "black";
+      form.style.color = "white";
+    } else {
+      btn.setAttribute('class','dark');
+      btn.textContent = 'Darken';
+      form.style.backgroundColor = "white";
+      form.style.color = "black";
+    }
+  });
