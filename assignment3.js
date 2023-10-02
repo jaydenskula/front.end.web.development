@@ -6,7 +6,7 @@ function quiz() {
     ];
     const answers = [1, 82, 0];
   
-    const score = 0;
+    let score = 0;
   
     let num = Math.floor(Math.random() * 1);
   
