@@ -12,7 +12,7 @@ function quiz() {
   
     for (let i = 0; i <= questions.count; i++) {
       const question = questions[num];
-      answer = prompt(question);
+      let answer = prompt(question);
       if (answer == answers[num]) {
         score++;
         alert('Correct!');
