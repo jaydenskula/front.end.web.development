@@ -1,7 +1,7 @@
 function quiz() {
     const questions = [
       'How many moons does Earth have?',
-      'How many moons does Saturn have?'
+      'How many moons does Saturn have?',
       'How many moons does Venus have?'
     ];
     const answers = [1, 82, 0];
@@ -14,7 +14,7 @@ function quiz() {
       const question = questions[num];
       answer = prompt(question);
       if (answer == answers[num]) {
-        score+;
+        score++;
         alert('Correct!');
       } else {
         alert('Wrong!');
