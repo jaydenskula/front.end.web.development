@@ -8,10 +8,11 @@ function quiz() {
 
   let score = 0;
 
-  let num = Math.floor(Math.random() * 1);
 
-  for (let i = 0; i <= questions.count; i++) {
-    const question = questions[num];
+
+  for (let i = 0; i < questions.length; i++) {
+    let num = Math.floor(Math.random() * questions.length);
+    let question = questions[num];
     let answer = prompt(question);
     if (answer == answers[num]) {
       score++;
@@ -25,9 +26,11 @@ function quiz() {
     }
   }
 
-  const scoreArea = document.querySelector('score-area');
+  let scoreArea = document.getElementById('score-area');
   scoreArea.innerHTML = `You got ${score} out of ${questions.length} questions correct!`;
 }
 
+document.addEventListener('DOMContentLoaded', function () {
 alert('Are you ready for a quiz?');
 quiz();
+});
