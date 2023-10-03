@@ -43,7 +43,7 @@ h2
     margin-bottom: 1em;
 }
 
-#secondary-nav-link
+.secondary-nav-link
 {
     font-size: 1em;
     font-family: 'Helvetica';
@@ -96,6 +96,12 @@ grid-item
     border: 1px solid black;
     text-align: center;
     padding-top: 30px;
+}
+
+.blog-list
+{
+    font-family: 'Courier';
+    font-size: 1.25em;
 }
 
 /* MOBILE */
