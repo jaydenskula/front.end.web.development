@@ -15,3 +15,8 @@ function writeMeowFactsToPage(json) {
 fetch('https://meowfacts.herokuapp.com/?count=3')
   .then(response => response.json())
   .then(writeMeowFactsToPage);
+
+  fetch('https://www.boredapi.com/api/activity')
+  .then((response) => { return response.json() })
+  //.then(function(response) { return response.json() })
+  .then((data) => { console.log(data) });
