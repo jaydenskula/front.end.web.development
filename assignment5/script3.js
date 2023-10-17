@@ -1,3 +1,3 @@
-export default function printTheMonth() {
-    document.querySelector('p').innerText += 'September';
+export default function printMyMajor() {
+    document.querySelector('p').innerText += 'Creative Technology & Design';
   }
