@@ -6,4 +6,4 @@ console.log(script2Stuff.hello);
 console.log(script2Stuff.year);
 script2Stuff.printTheYear();
 
-printTheMonth();
+printMyMajor();
