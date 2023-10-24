@@ -41,6 +41,7 @@ start
 document.querySelector('#start').onclick = start.play;
 
 
+
 let gameText = document.querySelector("#game_text");
 
 function fire_text()
@@ -48,4 +49,5 @@ function fire_text()
     gameText.textContent = "You light a fire";
 }
 
+let fire = document.querySelector('#fire');
 fire.addEventListener("click", fire_text);
