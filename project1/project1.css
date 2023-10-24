@@ -50,7 +50,9 @@ section img#moon
     font-family: 'Helvetica';
     font-weight: 100;
     position: absolute;
-    top: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-decoration: none;
     display: inline-block;
     padding: 8px 50px;
