@@ -33,12 +33,6 @@ section img#mountains_night
     top: initial;
 }
 
-section img#trees_night
-{
-    bottom: 0;
-    top: initial;
-}
-
 #btn
 {
     font-family: 'Helvetica';
