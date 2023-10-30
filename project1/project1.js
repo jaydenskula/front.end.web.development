@@ -41,8 +41,8 @@ start
 document.querySelector('#start').onclick = start.play;
 
 
+let gameText = document.querySelector('#game_text');
 
-let gameText = document.querySelector("#game_text");
 
 function fire_text()
 {
@@ -51,3 +51,30 @@ function fire_text()
 
 let fire = document.querySelector('#fire');
 fire.addEventListener("click", fire_text);
+
+
+var action1 = anime.timeline ({
+    autoplay: false
+});
+
+action1
+.add({
+    targets: '#fire',
+    top: '-100%',
+    duration: 1000,
+    easing: 'easeInOutSine'
+})
+
+.add({
+    targets: '#sleep',
+    top: '55%',
+    duration: 1000,
+    easing: 'easeInOutSine'
+})
+
+document.querySelector('#fire').onclick = action1.play;
+
+
+var action2 = anime.timeline ({
+    autoplay: false
+});
