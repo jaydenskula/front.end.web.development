@@ -92,6 +92,36 @@ section img#moon
     color: #2b1055;
 }
 
+#explore
+{
+    font-family: 'Helvetica';
+    font-weight: 100;
+    position: absolute;
+    top: -100%;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 50px;
+    background: #fff;
+    border-radius: 40px;
+    font-size: 1.4em;
+    color: #2b1055;
+}
+
+#hunt
+{
+    font-family: 'Helvetica';
+    font-weight: 100;
+    position: absolute;
+    top: -100%;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 50px;
+    background: #fff;
+    border-radius: 40px;
+    font-size: 1.4em;
+    color: #2b1055;
+}
+
 #game_text
 {
     color: white;
