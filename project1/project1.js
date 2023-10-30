@@ -60,7 +60,7 @@ var action1 = anime.timeline ({
 action1
 .add({
     targets: '#fire',
-    top: '-100%',
+    top: '101%',
     duration: 1000,
     easing: 'easeInOutSine'
 })
@@ -86,3 +86,21 @@ sleep.addEventListener("click", sleepText);
 var action2 = anime.timeline ({
     autoplay: false
 });
+
+
+function exploreText()
+{
+    gameText.textContent = "You go exploring."
+}
+
+let explore = document.querySelector('#explore');
+explore.addEventListener("click", exploreText);
+
+
+function huntText()
+{
+    gameText.textContent = "You go hunting. You collect 1 bit of meat."
+}
+
+let hunt = document.querySelector('#hunt');
+hunt.addEventListener("click", huntText);
