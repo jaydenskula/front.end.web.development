@@ -83,10 +83,6 @@ function sleepText()
 let sleep = document.querySelector('#sleep');
 sleep.addEventListener("click", sleepText);
 
-var action2 = anime.timeline ({
-    autoplay: false
-});
-
 
 function exploreText()
 {
@@ -104,3 +100,8 @@ function huntText()
 
 let hunt = document.querySelector('#hunt');
 hunt.addEventListener("click", huntText);
+
+
+var action2 = anime.timeline ({
+    autoplay: false
+});
