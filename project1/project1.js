@@ -44,13 +44,13 @@ document.querySelector('#start').onclick = start.play;
 let gameText = document.querySelector('#game_text');
 
 
-function fire_text()
+function fireText()
 {
     gameText.textContent = "You light a fire";
 }
 
 let fire = document.querySelector('#fire');
-fire.addEventListener("click", fire_text);
+fire.addEventListener("click", fireText);
 
 
 var action1 = anime.timeline ({
@@ -74,6 +74,14 @@ action1
 
 document.querySelector('#fire').onclick = action1.play;
 
+
+function sleepText()
+{
+    gameText.textContent = "You go to sleep. You wake up next morning. The sun is shining."
+}
+
+let sleep = document.querySelector('#sleep');
+sleep.addEventListener("click", sleepText);
 
 var action2 = anime.timeline ({
     autoplay: false
