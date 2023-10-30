@@ -105,3 +105,25 @@ hunt.addEventListener("click", huntText);
 var action2 = anime.timeline ({
     autoplay: false
 });
+
+action2
+.add({
+    targets: '#sleep',
+    top: '101%',
+    duration: 1000,
+    easing: 'easeInOutSine'
+})
+
+.add({
+    targets: '#explore',
+    top: '55%',
+    duration: 1000,
+    easing: 'easeInOutSine'
+})
+
+.add({
+    targets: '#hunt',
+    top: '60%',
+    duration: 1000,
+    easing: 'easeInOutSine'
+})
