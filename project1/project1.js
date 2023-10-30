@@ -127,3 +127,5 @@ action2
     duration: 1000,
     easing: 'easeInOutSine'
 })
+
+document.querySelector('#sleep').onClick = action2.play;
