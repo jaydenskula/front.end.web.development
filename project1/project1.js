@@ -60,7 +60,7 @@ var action1 = anime.timeline ({
 action1
 .add({
     targets: '#fire',
-    top: '101%',
+    top: '-100%',
     duration: 1000,
     easing: 'easeInOutSine'
 })
@@ -82,24 +82,6 @@ function sleepText()
 
 let sleep = document.querySelector('#sleep');
 sleep.addEventListener("click", sleepText);
-
-
-function exploreText()
-{
-    gameText.textContent = "You go exploring."
-}
-
-let explore = document.querySelector('#explore');
-explore.addEventListener("click", exploreText);
-
-
-function huntText()
-{
-    gameText.textContent = "You go hunting. You collect 1 bit of meat."
-}
-
-let hunt = document.querySelector('#hunt');
-hunt.addEventListener("click", huntText);
 
 
 var action2 = anime.timeline ({
@@ -129,3 +111,23 @@ action2
 })
 
 document.querySelector('#sleep').onClick = action2.play;
+
+
+function exploreText()
+{
+    gameText.textContent = "You go exploring."
+}
+
+let explore = document.querySelector('#explore');
+explore.addEventListener("click", exploreText);
+
+
+function huntText()
+{
+    gameText.textContent = "You go hunting. You collect 1 bit of meat."
+}
+
+let hunt = document.querySelector('#hunt');
+hunt.addEventListener("click", huntText);
+
+
