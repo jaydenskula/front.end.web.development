@@ -112,7 +112,8 @@ section img#foreground_night
     font-family: 'Helvetica';
     font-weight: 100;
     position: absolute;
-    top: -100%;
+    left: 20px;
+    bottom: 20px;
     text-decoration: none;
     display: inline-block;
     padding: 8px 50px;
@@ -128,7 +129,8 @@ section img#foreground_night
     font-family: 'Helvetica';
     font-weight: 100;
     position: absolute;
-    top: -100%;
+    bottom: 20px;
+    right: 20px;
     text-decoration: none;
     display: inline-block;
     padding: 8px 50px;
