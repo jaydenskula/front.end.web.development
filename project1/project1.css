@@ -4,7 +4,7 @@ body
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(#020106, #272869, #486abc);
+    background: linear-gradient(#44605E, #388E88, #5DAEA8, #70B4AF);
 }
 
 section
@@ -43,6 +43,12 @@ section img#stars
 section img#moon
 {
     top: -100%;
+}
+
+section img#foreground_night
+{
+    bottom: -100%;
+    top: initial;
 }
 
 #start
