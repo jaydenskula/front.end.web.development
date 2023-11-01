@@ -73,68 +73,12 @@ action1
 })
 
 .add({
-    targets: '#sleep',
+    targets: '#extinguishFire',
     top: '55%',
     duration: 1000,
     easing: 'easeInOutSine'
 })
 
 document.querySelector('#fire').onclick = action1.play;
-
-
-function sleepText()
-{
-    gameText.textContent = "You go to sleep. You wake up next morning. The sun is shining."
-}
-
-let sleep = document.querySelector('#sleep');
-sleep.addEventListener("click", sleepText);
-
-
-var action2 = anime.timeline ({
-    autoplay: false
-});
-
-action2
-.add({
-    targets: '#sleep',
-    top: '101%',
-    duration: 700,
-    easing: 'easeInOutSine'
-})
-
-.add({
-    targets: '#explore',
-    top: '55%',
-    duration: 700,
-    easing: 'easeInOutSine'
-})
-
-.add({
-    targets: '#hunt',
-    top: '60%',
-    duration: 700,
-    easing: 'easeInOutSine'
-})
-
-document.querySelector('#sleep').onClick = action2.play;
-
-
-function exploreText()
-{
-    gameText.textContent = "You go exploring."
-}
-
-let explore = document.querySelector('#explore');
-explore.addEventListener("click", exploreText);
-
-
-function huntText()
-{
-    gameText.textContent = "You go hunting. You collect 1 bit of meat."
-}
-
-let hunt = document.querySelector('#hunt');
-hunt.addEventListener("click", huntText);
 
 
