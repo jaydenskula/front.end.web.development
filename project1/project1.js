@@ -6,7 +6,7 @@ start
 .add({
     targets: '#start',
     top: '-100%',
-    duration: 500,
+    duration: 1000,
     easing: 'easeInOutSine'
 })
 
@@ -19,6 +19,13 @@ start
 
 .add({
     targets: '#mountains_night',
+    bottom: '0px',
+    duration: 1000,
+    easing: 'easeInOutSine'
+})
+
+.add({
+    targets: '#foreground_night',
     bottom: '0px',
     duration: 1000,
     easing: 'easeInOutSine'
