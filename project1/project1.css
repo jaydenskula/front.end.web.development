@@ -7,6 +7,12 @@ body
     background: linear-gradient(#44605E, #388E88, #5DAEA8, #70B4AF);
 }
 
+#game_text
+{
+    color: white;
+    z-index: 100;
+}
+
 section
 {
     position: relative;
@@ -66,6 +72,7 @@ section img#foreground_night
     border-radius: 40px;
     font-size: 1.4em;
     color: #2b1055;
+    z-index: 100;
 }
 
 #fire
@@ -81,6 +88,7 @@ section img#foreground_night
     border-radius: 40px;
     font-size: 1.4em;
     color: #2b1055;
+    z-index: 100;
 }
 
 #sleep
@@ -96,6 +104,7 @@ section img#foreground_night
     border-radius: 40px;
     font-size: 1.4em;
     color: #2b1055;
+    z-index: 100;
 }
 
 #explore
@@ -111,6 +120,7 @@ section img#foreground_night
     border-radius: 40px;
     font-size: 1.4em;
     color: #2b1055;
+    z-index: 100;
 }
 
 #hunt
@@ -126,6 +136,7 @@ section img#foreground_night
     border-radius: 40px;
     font-size: 1.4em;
     color: #2b1055;
+    z-index: 100;
 }
 
 #camp
@@ -141,9 +152,6 @@ section img#foreground_night
     border-radius: 40px;
     font-size: 1.4em;
     color: #2b1055;
+    z-index: 100;
 }
 
-#game_text
-{
-    color: white;
-}
