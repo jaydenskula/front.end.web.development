@@ -48,7 +48,7 @@ start
 document.querySelector('#start').onclick = start.play;
 
 
-let gameText = document.querySelector('#game_text');
+let gameText = document.querySelector('#text');
 
 
 function fireText()
@@ -60,11 +60,11 @@ let fire = document.querySelector('#fire');
 fire.addEventListener("click", fireText);
 
 
-var action1 = anime.timeline ({
+var lightFire = anime.timeline ({
     autoplay: false
 });
 
-action1
+lightFire
 .add({
     targets: '#fire',
     top: '60%',
@@ -79,6 +79,16 @@ action1
     easing: 'easeInOutSine'
 })
 
-document.querySelector('#fire').onclick = action1.play;
+document.querySelector('#fire').onclick = lightFire.play;
 
+var extinguishFire = anime.timeline ({
+    autoplay: false
+});
 
+var dayTime = anime.timeline({
+    autoplay: false
+});
+
+var nightTime = anime.timeline({
+    autoplay: false
+})
