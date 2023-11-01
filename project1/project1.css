@@ -7,7 +7,7 @@ body
     background: linear-gradient(#44605E, #388E88, #5DAEA8, #70B4AF);
 }
 
-#game_text
+#text
 {
     color: white;
     z-index: 100;
