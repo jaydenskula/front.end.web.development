@@ -91,4 +91,42 @@ var dayTime = anime.timeline({
 
 var nightTime = anime.timeline({
     autoplay: false
+});
+
+nightTime
+.add({
+    targets: '#stars',
+    top: '0px',
+    duration: 1000,
+    easing: 'easeInOutSine'
 })
+
+.add({
+    targets: '#mountains_night',
+    bottom: '0px',
+    duration: 1000,
+    easing: 'easeInOutSine'
+})
+
+.add({
+    targets: '#foreground_night',
+    bottom: '0px',
+    duration: 1000,
+    easing: 'easeInOutSine'
+})
+
+.add({
+    targets: '#moon',
+    top: '0px',
+    duration: 1000,
+    easing: 'easeInOutSine'
+})
+
+.add({
+    targets: '#fire',
+    top: '55%',
+    duration: 1000,
+    easing: 'easeInOutSine'
+})
+
+document.getElementById('night').onclick = nightTime.play;
