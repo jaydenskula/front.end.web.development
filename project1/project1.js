@@ -67,23 +67,23 @@ var lightFire = anime.timeline ({
 lightFire
 .add({
     targets: '#fire',
-    top: '55%',
-    duration: 500,
-    easing: 'easeInOutSine'
+    top: '70%',
+    duration: 1000,
+    easing: 'linear'
 })
 
 .add({
     targets: '#extinguishFire',
-    top: '60%',
-    duration: 500,
-    easing: 'easeInOutSine'
+    top: '75%',
+    duration: 1000,
+    easing: 'linear'
 })
 
 .add({
     targets: '#sleep',
-    top: '65%',
-    duration: 500,
-    easing: 'easeInOutSine'
+    top: '80%',
+    duration: 1000,
+    easing: 'linear'
 })
 
 document.querySelector('#fire').onclick = lightFire.play;
@@ -92,7 +92,10 @@ document.querySelector('#fire').onclick = lightFire.play;
 function sleepText()
 {
     gameText.textContent = "You go to sleep and wake up the next morning. The sun is shining."
-    document.body.style.background = "blue";
+    document.body.style.background = "#B8FFFB";
+
+    let sleepButton = document.getElementById('sleep');
+    sleepButton.textContent = "Replay";
 }
 
 let dayText = document.getElementById('sleep');
