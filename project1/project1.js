@@ -80,31 +80,20 @@ lightFire
 })
 
 .add({
-    targets: '#day',
+    targets: '#sleep',
     top: '65%',
-    duration: 500,
-    easing: 'easeInOutSine'
-})
-
-.add({
-    targets: '#night',
-    top: '70%',
     duration: 500,
     easing: 'easeInOutSine'
 })
 
 document.querySelector('#fire').onclick = lightFire.play;
 
-var extinguishFire = anime.timeline ({
+
+var sleep = anime.timeline({
     autoplay: false
 });
 
-var dayTime = anime.timeline({
-    autoplay: false
-});
-
-
-dayTime
+sleep
 .add({
     targets: '#mountains_day',
     bottom: '0px',
@@ -126,4 +115,9 @@ dayTime
     easing: 'easeInOutSine'
 })
 
-document.getElementById('sleep').onclick = dayTime.play;
+document.getElementById('sleep').onclick = sleep.play;
+
+
+var extinguishFire = anime.timeline ({
+    autoplay: false
+});
