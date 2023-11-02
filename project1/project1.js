@@ -67,15 +67,29 @@ var lightFire = anime.timeline ({
 lightFire
 .add({
     targets: '#fire',
-    top: '60%',
-    duration: 1000,
+    top: '55%',
+    duration: 500,
     easing: 'easeInOutSine'
 })
 
 .add({
     targets: '#extinguishFire',
-    top: '55%',
-    duration: 1000,
+    top: '60%',
+    duration: 500,
+    easing: 'easeInOutSine'
+})
+
+.add({
+    targets: '#day',
+    top: '65%',
+    duration: 500,
+    easing: 'easeInOutSine'
+})
+
+.add({
+    targets: '#night',
+    top: '70%',
+    duration: 500,
     easing: 'easeInOutSine'
 })
 
@@ -89,44 +103,27 @@ var dayTime = anime.timeline({
     autoplay: false
 });
 
-var nightTime = anime.timeline({
-    autoplay: false
-});
 
-nightTime
+dayTime
 .add({
-    targets: '#stars',
-    top: '0px',
-    duration: 1000,
-    easing: 'easeInOutSine'
-})
-
-.add({
-    targets: '#mountains_night',
+    targets: '#mountains_day',
     bottom: '0px',
     duration: 1000,
     easing: 'easeInOutSine'
 })
 
 .add({
-    targets: '#foreground_night',
+    targets: '#foreground_day',
     bottom: '0px',
     duration: 1000,
     easing: 'easeInOutSine'
 })
 
 .add({
-    targets: '#moon',
+    targets: '#sun',
     top: '0px',
     duration: 1000,
     easing: 'easeInOutSine'
 })
 
-.add({
-    targets: '#fire',
-    top: '55%',
-    duration: 1000,
-    easing: 'easeInOutSine'
-})
-
-document.getElementById('night').onclick = nightTime.play;
+document.getElementById('sleep').onclick = dayTime.play;
