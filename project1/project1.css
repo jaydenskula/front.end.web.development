@@ -9,8 +9,10 @@ body
 
 #text
 {
+    position: absolute;
     color: white;
     z-index: 100;
+    bottom: 50px;
 }
 
 section
