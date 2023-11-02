@@ -66,22 +66,21 @@ var lightFire = anime.timeline ({
 
 lightFire
 .add({
-    targets: '#fire',
-    top: '70%',
-    duration: 1000,
+    targets: '#firepit',
+    bottom: '0px',
     easing: 'linear'
 })
 
 .add({
     targets: '#extinguishFire',
-    top: '75%',
+    top: '60%',
     duration: 1000,
     easing: 'linear'
 })
 
 .add({
     targets: '#sleep',
-    top: '80%',
+    top: '65%',
     duration: 1000,
     easing: 'linear'
 })
