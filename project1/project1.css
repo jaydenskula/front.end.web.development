@@ -39,6 +39,12 @@ section img#mountains_night
     top: initial;
 }
 
+section img#mountains_day
+{
+    bottom: -100%;
+    top: initial;
+}
+
 section img#stars
 {
     top: -100%;
@@ -51,7 +57,18 @@ section img#moon
     top: -100%;
 }
 
+section img#sun
+{
+    top: -100%;
+}
+
 section img#foreground_night
+{
+    bottom: -100%;
+    top: initial;
+}
+
+section img#foreground_day
 {
     bottom: -100%;
     top: initial;
@@ -69,7 +86,6 @@ section img#foreground_night
     display: inline-block;
     padding: 8px 50px;
     background: #fff;
-    border-radius: 40px;
     font-size: 1.4em;
     color: #2b1055;
     z-index: 100;
@@ -83,11 +99,11 @@ section img#foreground_night
     top: -100%;
     text-decoration: none;
     display: inline-block;
-    padding: 8px 50px;
+    padding: 5px 50px;
     background: #fff;
     border-radius: 40px;
     font-size: 1.4em;
-    color: #2b1055;
+    color: #101a55;
     z-index: 100;
 }
 
@@ -99,7 +115,7 @@ section img#foreground_night
     top: -100%;
     text-decoration: none;
     display: inline-block;
-    padding: 8px 50px;
+    padding: 5px 50px;
     background: #fff;
     border-radius: 40px;
     font-size: 1.4em;
@@ -107,37 +123,18 @@ section img#foreground_night
     z-index: 100;
 }
 
-#day
+#sleep
 {
     font-family: 'Helvetica';
     font-weight: 100;
     position: absolute;
-    left: 20px;
-    bottom: 20px;
+    top: -100%;
     text-decoration: none;
     display: inline-block;
-    padding: 8px 50px;
+    padding: 5px 50px;
     background: #fff;
     border-radius: 40px;
     font-size: 1.4em;
     color: #2b1055;
     z-index: 100;
 }
-
-#night
-{
-    font-family: 'Helvetica';
-    font-weight: 100;
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    text-decoration: none;
-    display: inline-block;
-    padding: 8px 50px;
-    background: #fff;
-    border-radius: 40px;
-    font-size: 1.4em;
-    color: #2b1055;
-    z-index: 100;
-}
-
