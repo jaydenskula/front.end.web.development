@@ -76,6 +76,12 @@ section img#foreground_day
     top: initial;
 }
 
+section img#firepit
+{
+    bottom: -100%;
+    top: initial;
+}
+
 #start
 {
     font-family: 'Helvetica';
@@ -103,7 +109,6 @@ section img#foreground_day
     display: inline-block;
     padding: 5px 50px;
     background: #fff;
-    border-radius: 40px;
     font-size: 1.4em;
     color: #101a55;
     z-index: 100;
@@ -119,7 +124,6 @@ section img#foreground_day
     display: inline-block;
     padding: 5px 50px;
     background: #fff;
-    border-radius: 40px;
     font-size: 1.4em;
     color: #2b1055;
     z-index: 100;
@@ -135,7 +139,6 @@ section img#foreground_day
     display: inline-block;
     padding: 5px 50px;
     background: #fff;
-    border-radius: 40px;
     font-size: 1.4em;
     color: #2b1055;
     z-index: 100;
