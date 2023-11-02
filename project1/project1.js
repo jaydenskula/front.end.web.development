@@ -68,7 +68,8 @@ lightFire
 .add({
     targets: '#firepit',
     bottom: '0px',
-    easing: 'linear'
+    duration: 1000,
+    easing: 'easeInOutSine'
 })
 
 .add({
@@ -157,6 +158,48 @@ sleep
     targets: '#sun',
     top: '0px',
     duration: 1000,
+    easing: 'easeInOutSine'
+})
+
+.add({
+    targets: '#firepit',
+    bottom: '-100%',
+    duration: 500,
+    easing: 'easeInOutSine'
+})
+
+.add({
+    targets: '#flames_1',
+    bottom: '-100%',
+    duration: 500,
+    easing: 'easeInOutSine'
+})
+
+.add({
+    targets: '#flames_2',
+    bottom: '-100%',
+    duration: 500,
+    easing: 'easeInOutSine'
+})
+
+.add({
+    targets: '#flames_3',
+    bottom: '-100%',
+    duration: 500,
+    easing: 'easeInOutSine'
+})
+
+.add({
+    targets: '#flames_4',
+    bottom: '-100%',
+    duration: 500,
+    easing: 'easeInOutSine'
+})
+
+.add({
+    targets: '#flames_5',
+    bottom: '-100%',
+    duration: 500,
     easing: 'easeInOutSine'
 })
 
