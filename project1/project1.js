@@ -89,23 +89,39 @@ lightFire
 document.querySelector('#fire').onclick = lightFire.play;
 
 
+function sleepText()
+{
+    gameText.textContent = "You go to sleep and wake up the next morning. The sun is shining."
+    document.body.style.background = "blue";
+}
+
+let dayText = document.getElementById('sleep');
+dayText.addEventListener("click", sleepText);
+
 var sleep = anime.timeline({
     autoplay: false
 });
 
 sleep
 .add({
+    targets: '#stars',
+    top: '-100%',
+    duration: 100,
+    easing: 'linear'
+})
+
+.add({
     targets: '#mountains_day',
     bottom: '0px',
     duration: 1000,
-    easing: 'easeInOutSine'
+    easing: 'linear'
 })
 
 .add({
     targets: '#foreground_day',
     bottom: '0px',
     duration: 1000,
-    easing: 'easeInOutSine'
+    easing: 'linear'
 })
 
 .add({
