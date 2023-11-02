@@ -79,6 +79,12 @@ lightFire
 })
 
 .add({
+    targets: '#flames_1',
+    rotate: '1turn',
+    loop: true
+})
+
+.add({
     targets: '#flames_2',
     bottom: '0px',
     duration: 200,
@@ -89,7 +95,7 @@ lightFire
     targets: '#flames_3',
     bottom: '0px',
     duration: 200,
-    easing: 'linear'
+    easing: 'linear',
 })
 
 .add({
@@ -121,7 +127,6 @@ lightFire
 })
 
 document.querySelector('#fire').onclick = lightFire.play;
-
 
 function sleepText()
 {
