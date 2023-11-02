@@ -73,36 +73,37 @@ lightFire
 
 .add({
     targets: '#flames_1',
-    rotate: '1turn',
-    loop: true
+    bottom: '0px',
+    duration: 200,
+    easing: 'spring'
 })
 
 .add({
     targets: '#flames_2',
     bottom: '0px',
     duration: 200,
-    easing: 'linear'
+    easing: 'spring'
 })
 
 .add({
     targets: '#flames_3',
     bottom: '0px',
     duration: 200,
-    easing: 'linear',
+    easing: 'spring',
 })
 
 .add({
     targets: '#flames_4',
     bottom: '0px',
     duration: 200,
-    easing: 'linear'
+    easing: 'spring'
 })
 
 .add({
     targets: '#flames_5',
     bottom: '0px',
     duration: 200,
-    easing: 'linear'
+    easing: 'spring'
 })
 
 .add({
