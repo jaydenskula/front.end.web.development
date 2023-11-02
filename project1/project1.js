@@ -73,13 +73,6 @@ lightFire
 
 .add({
     targets: '#flames_1',
-    bottom: '0px',
-    duration: 200,
-    easing: 'linear'
-})
-
-.add({
-    targets: '#flames_1',
     rotate: '1turn',
     loop: true
 })
@@ -113,15 +106,8 @@ lightFire
 })
 
 .add({
-    targets: '#pauseFire',
-    top: '60%',
-    duration: 1000,
-    easing: 'linear'
-})
-
-.add({
     targets: '#sleep',
-    top: '65%',
+    top: '60%',
     duration: 1000,
     easing: 'linear'
 })
