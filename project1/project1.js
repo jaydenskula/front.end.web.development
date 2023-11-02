@@ -11,6 +11,13 @@ start
 })
 
 .add({
+    targets: '#restart',
+    top: '20px',
+    duration: 800,
+    easing: 'easeInOutSine'
+})
+
+.add({
     targets: '#stars',
     top: '0px',
     duration: 1000,
