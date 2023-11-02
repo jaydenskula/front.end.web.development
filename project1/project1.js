@@ -72,6 +72,36 @@ lightFire
 })
 
 .add({
+    targets: '#flames_1',
+    bottom: '0px',
+    easing: 'linear'
+})
+
+.add({
+    targets: '#flames_2',
+    bottom: '0px',
+    easing: 'linear'
+})
+
+.add({
+    targets: '#flames_3',
+    bottom: '0px',
+    easing: 'linear'
+})
+
+.add({
+    targets: '#flames_4',
+    bottom: '0px',
+    easing: 'linear'
+})
+
+.add({
+    targets: '#flames_5',
+    bottom: '0px',
+    easing: 'linear'
+})
+
+.add({
     targets: '#extinguishFire',
     top: '60%',
     duration: 1000,
