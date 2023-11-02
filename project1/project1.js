@@ -169,8 +169,3 @@ sleep
 })
 
 document.getElementById('sleep').onclick = sleep.play;
-
-
-var extinguishFire = anime.timeline ({
-    autoplay: false
-});
