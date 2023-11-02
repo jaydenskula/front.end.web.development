@@ -82,6 +82,36 @@ section img#firepit
     top: initial;
 }
 
+section img#flames_1
+{
+    bottom: -100%;
+    top: initial;
+}
+
+section img#flames_2
+{
+    bottom: -100%;
+    top: initial;
+}
+
+section img#flames_3
+{
+    bottom: -100%;
+    top: initial;
+}
+
+section img#flames_4
+{
+    bottom: -100%;
+    top: initial;
+}
+
+section img#flames_5
+{
+    bottom: -100%;
+    top: initial;
+}
+
 #start
 {
     font-family: 'Helvetica';
