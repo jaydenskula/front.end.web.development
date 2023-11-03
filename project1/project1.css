@@ -123,8 +123,9 @@ section img#flames_5
     text-decoration: none;
     display: inline-block;
     padding: 8px 50px;
-    background: #fff;
+    background: #d7eeec;
     font-size: 1.4em;
+    border: 1.5px solid #071561;
     color: #071561;
     z-index: 100;
 }
@@ -138,9 +139,10 @@ section img#flames_5
     text-decoration: none;
     display: inline-block;
     padding: 5px 50px;
-    background: #fff;
+    background: linear-gradient(#a40e04, #fca204);
     font-size: 1.4em;
-    color: #071561;
+    border: 1.5px solid #a40e04;
+    color: white;
     z-index: 100;
 }
 
@@ -153,8 +155,9 @@ section img#flames_5
     text-decoration: none;
     display: inline-block;
     padding: 5px 50px;
-    background: #fff;
+    background: #f4fffe;
     font-size: 1.4em;
+    border: 1.5px solid #071561;
     color: #071561;
     z-index: 100;
 }
@@ -168,8 +171,9 @@ section img#flames_5
     text-decoration: none;
     display: inline-block;
     padding: 5px 50px;
-    background: #fff;
+    background: linear-gradient(#01308a, #ff5558);
     font-size: 1.4em;
-    color: #071561;
+    border: 1.5px solid #01308a;
+    color: white;
     z-index: 100;
 }
