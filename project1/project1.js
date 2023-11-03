@@ -82,41 +82,41 @@ lightFire
 .add({
     targets: '#flames_1',
     bottom: '0px',
-    duration: 200,
+    duration: 100,
     easing: 'spring'
 })
 
 .add({
     targets: '#flames_2',
     bottom: '0px',
-    duration: 200,
+    duration: 100,
     easing: 'spring'
 })
 
 .add({
     targets: '#flames_3',
     bottom: '0px',
-    duration: 200,
+    duration: 100,
     easing: 'spring',
 })
 
 .add({
     targets: '#flames_4',
     bottom: '0px',
-    duration: 200,
+    duration: 100,
     easing: 'spring'
 })
 
 .add({
     targets: '#flames_5',
     bottom: '0px',
-    duration: 200,
+    duration: 100,
     easing: 'spring'
 })
 
 .add({
     targets: '#sleep',
-    top: '60%',
+    top: '62%',
     duration: 1000,
     easing: 'linear'
 })
